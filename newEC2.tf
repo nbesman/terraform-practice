@@ -1,7 +1,5 @@
 provider "aws" {
 region     = "us-west-2"
-access_key = "put your access key here" #bad practice
-secret_key = "put yor secret key here"
 }
 
 resource "aws_instance" "nimiEC2" {
